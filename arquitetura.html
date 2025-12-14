@@ -2,102 +2,186 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>MID-SUS — Arquitetura</title>
+  <title>MID-SUS — Como esse processo surgiu</title>
 </head>
 <body>
 
-<h1>Arquitetura do MID-SUS</h1>
+<h1>Como esse processo surgiu</h1>
 
-<h2>1. Intenção clínica</h2>
-<ul>
-  <li>Apoiar a leitura humana</li>
-  <li>Não substituir decisão médica</li>
-  <li>Reduzir ruído cognitivo</li>
-</ul>
+<p>
+O ponto de partida deste projeto foi um problema concreto, cotidiano e mensurável:
+a demora na leitura e no encaminhamento de exames sofisticados no sistema público de saúde.
+</p>
 
-<h2>2. Objeto de leitura</h2>
-<ul>
-  <li>Imagens médicas</li>
-  <li>Exames não invasivos</li>
-  <li>Dados visuais já existentes</li>
-</ul>
+<p>
+Tomografias, raios-x, ressonâncias e outros exames de imagem
+frequentemente ficam dias ou semanas aguardando laudo,
+não porque o exame não exista,
+mas porque a capacidade humana de leitura especializada é limitada
+e mal distribuída.
+</p>
 
-<h2>3. Tradução semântica</h2>
-<ul>
-  <li>Extração de achados relevantes</li>
-  <li>Mapeamento de padrões</li>
-  <li>Conversão para estrutura interpretável</li>
-</ul>
+<p>
+Nosso primeiro movimento foi atacar exatamente esse ponto:
+como ajudar a identificar, mais rapidamente,
+quais exames exigem prioridade absoluta de leitura
+e quais podem aguardar.
+</p>
 
-<h2>4. Representação sonora</h2>
-<ul>
-  <li>Codificação auditiva dos achados</li>
-  <li>Som como suporte, não como alerta</li>
-  <li>Ausência de estética musical</li>
-</ul>
+<p>
+Não se tratava de substituir o laudo médico,
+mas de reorganizar a fila,
+destacando padrões críticos
+e reduzindo o risco de atrasos onde o tempo é determinante.
+</p>
 
-<h2>5. Interpretação humana</h2>
-<ul>
-  <li>Escuta ativa</li>
-  <li>Correlação com leitura visual</li>
-  <li>Treinamento progressivo</li>
-</ul>
+<p>
+Nesse processo, desenvolvemos a capacidade de transformar imagens médicas
+em representações sonoras.
+Uma audição da imagem.
+</p>
 
-<h2>6. Limites éticos</h2>
-<ul>
-  <li>Não realizar diagnóstico</li>
-  <li>Não atuar fora de ambiente clínico</li>
-  <li>Não substituir protocolos médicos</li>
-</ul>
+<p>
+O projeto passou a funcionar como uma espécie de estetoscópio expandido:
+um estetoscópio do pulmão,
+da coluna,
+do intestino,
+de estruturas internas que hoje só são acessadas visualmente.
+</p>
 
-<h2>7. Instrumento base</h2>
-<ul>
-  <li>PSIU como instrumento cognitivo</li>
-  <li>PSIU não é o projeto final</li>
-  <li>PSIU opera abaixo do MID-SUS</li>
-</ul>
-<h2>Decisões em aberto</h2>
-<ul>
-  <li>Granularidade do mapeamento sonoro</li>
-  <li>Relação entre tipos de achado e parâmetros sonoros</li>
-  <li>Nível de treinamento necessário para a escuta humana</li>
-  <li>Critérios para desligar o som (silêncio como dado)</li>
-</ul>
-<h2>Hipóteses</h2>
-<ul>
-  <li>O som pode antecipar padrões antes da leitura visual consciente</li>
-  <li>Diferentes categorias de achados exigem famílias sonoras distintas</li>
-  <li>Silêncio pode ser tão informativo quanto som</li>
-</ul>
+<p>
+Essa abordagem — ouvir a imagem —
+permite que padrões complexos se tornem perceptíveis
+sem exigir atenção visual contínua,
+criando uma nova camada de leitura complementar.
+</p>
 
-<h2>Descartado (até agora)</h2>
-<ul>
-  <li>Uso estético ou musical do som</li>
-  <li>Alertas sonoros automáticos</li>
-  <li>Qualquer forma de diagnóstico por áudio</li>
-</ul>
-<h2>Dependências técnicas mínimas</h2>
-<ul>
-  <li>Entrada padronizada de imagens médicas (formatos e metadados)</li>
-  <li>Mecanismo de leitura computacional dos achados</li>
-  <li>Camada de tradução semântica (achado → atributo)</li>
-  <li>Mapeamento atributo → parâmetro sonoro</li>
-  <li>Motor de síntese sonora controlável e auditável</li>
-  <li>Interface simples para escuta humana (play / pause / silenciar)</li>
-  <li>Registro de contexto e sessões (para comparação)</li>
-</ul>
-<h2>Critérios de validação</h2>
-<ul>
-  <li>Consistência: o mesmo achado gera o mesmo padrão sonoro</li>
-  <li>Diferenciação: achados diferentes não soam iguais</li>
-  <li>Controle: parâmetros sonoros são explicáveis e ajustáveis</li>
-  <li>Redução de carga: a escuta ajuda, não atrapalha</li>
-  <li>Segurança: não induz conclusão clínica automática</li>
-  <li>Reprodutibilidade: resultados repetem em sessões distintas</li>
-</ul>
+<p>
+Essa capacidade existe.
+Ela é real.
+Ela funciona.
+E ela continuará fazendo parte do projeto como um todo.
+</p>
 
-<p><a href="index.html">Voltar</a></p>
+<p>
+Mas, ao longo do desenvolvimento, ficou claro que havia algo errado
+no ponto de partida do nosso raciocínio.
+</p>
+
+<p>
+Estávamos olhando o ser humano por dentro
+antes de olhar o ser humano como ele é.
+</p>
+
+<p>
+Antes de ser o paciente do SUS,
+antes de ser um exame,
+antes de ser uma imagem,
+existe a pessoa comum.
+</p>
+
+<p>
+E foi aí que percebemos o gargalo maior.
+</p>
+
+<p>
+O maior gargalo do SUS não está nos exames sofisticados.
+Ele está nos processos elementares.
+</p>
+
+<p>
+Está no encontro entre médico e paciente.
+Na anamnese.
+Na coleta repetitiva de informações básicas.
+Na descrição verbal de sintomas
+que poderiam ser estruturados de forma muito mais eficiente.
+</p>
+
+<p>
+Hoje, uma quantidade enorme do tempo médico
+é consumida preenchendo informações
+que já poderiam estar organizadas antes da consulta.
+</p>
+
+<p>
+Coisas simples.
+Desde uma coceira persistente
+até um desconforto recorrente,
+passam pelo mesmo funil ineficiente:
+agenda,
+consulta,
+perguntas repetidas,
+digitação,
+registro manual.
+</p>
+
+<p>
+Grande parte disso poderia ser resolvida
+antes mesmo do encontro médico.
+</p>
+
+<p>
+Formulários estruturados.
+Perguntas objetivas.
+Fluxos de “sim” e “não”.
+Descrição guiada de sintomas.
+Envio de fotos.
+Uso do celular.
+Uso de dados que o próprio sistema público já possui.
+</p>
+
+<p>
+Tudo isso permitiria que o médico
+recebesse o paciente já com um quadro organizado,
+reduzindo drasticamente o tempo gasto com tarefas operacionais.
+</p>
+
+<p>
+O MID-SUS nasce exatamente dessa virada de raciocínio.
+</p>
+
+<p>
+Não começamos mais pelo exame sofisticado.
+Começamos pela pessoa.
+</p>
+
+<p>
+Pelo humano exterior,
+antes da doença,
+antes do laudo,
+antes do sistema.
+</p>
+
+<p>
+A leitura do interior do corpo continua existindo,
+mas ela passa a ocupar o lugar correto:
+como ferramenta de apoio,
+não como ponto de partida.
+</p>
+
+<p>
+O projeto passa a atuar onde o gargalo é maior,
+onde o desperdício de tempo é cotidiano
+e onde pequenas reorganizações geram impactos enormes.
+</p>
+
+<p>
+Este site não é uma apresentação.
+Não é um produto.
+Não é uma promessa.
+</p>
+
+<p>
+Ele é um espaço de trabalho
+para organizar esse raciocínio,
+explicitar decisões
+e estruturar um projeto que nasce da observação direta
+dos problemas reais do sistema.
+</p>
+
+<p>
+<a href="index.html">Voltar</a>
+</p>
 
 </body>
 </html>
-
