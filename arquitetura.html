@@ -2,186 +2,46 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>MID-SUS — Como esse processo surgiu</title>
+  <title>Arquitetura do MID-SUS</title>
 </head>
 <body>
 
-<h1>Como esse processo surgiu</h1>
+<h1>Arquitetura do MID-SUS</h1>
 
 <p>
-O ponto de partida deste projeto foi um problema concreto, cotidiano e mensurável:
-a demora na leitura e no encaminhamento de exames sofisticados no sistema público de saúde.
+Esta página descreve a estrutura lógica do MID-SUS.
+Não conta a história. Não apresenta o projeto.
+Aqui só existe estrutura.
 </p>
 
-<p>
-Tomografias, raios-x, ressonâncias e outros exames de imagem
-frequentemente ficam dias ou semanas aguardando laudo,
-não porque o exame não exista,
-mas porque a capacidade humana de leitura especializada é limitada
-e mal distribuída.
-</p>
+<h2>Camadas principais</h2>
 
-<p>
-Nosso primeiro movimento foi atacar exatamente esse ponto:
-como ajudar a identificar, mais rapidamente,
-quais exames exigem prioridade absoluta de leitura
-e quais podem aguardar.
-</p>
+<ul>
+  <li>Ser humano exterior (antes do sistema de saúde)</li>
+  <li>Coleta estruturada de informações</li>
+  <li>Triagem e priorização</li>
+  <li>Encaminhamento</li>
+  <li>Exames e leitura assistida</li>
+  <li>Audição de imagens (quando aplicável)</li>
+</ul>
 
-<p>
-Não se tratava de substituir o laudo médico,
-mas de reorganizar a fila,
-destacando padrões críticos
-e reduzindo o risco de atrasos onde o tempo é determinante.
-</p>
+<h2>Separação de responsabilidades</h2>
 
-<p>
-Nesse processo, desenvolvemos a capacidade de transformar imagens médicas
-em representações sonoras.
-Uma audição da imagem.
-</p>
+<ul>
+  <li>Usuário: fornece informações</li>
+  <li>Sistema: organiza, cruza e prioriza</li>
+  <li>Profissional de saúde: decide</li>
+</ul>
 
-<p>
-O projeto passou a funcionar como uma espécie de estetoscópio expandido:
-um estetoscópio do pulmão,
-da coluna,
-do intestino,
-de estruturas internas que hoje só são acessadas visualmente.
-</p>
+<h2>O que esta arquitetura NÃO faz</h2>
 
-<p>
-Essa abordagem — ouvir a imagem —
-permite que padrões complexos se tornem perceptíveis
-sem exigir atenção visual contínua,
-criando uma nova camada de leitura complementar.
-</p>
+<ul>
+  <li>Não diagnostica</li>
+  <li>Não prescreve</li>
+  <li>Não substitui decisão clínica</li>
+</ul>
 
-<p>
-Essa capacidade existe.
-Ela é real.
-Ela funciona.
-E ela continuará fazendo parte do projeto como um todo.
-</p>
-
-<p>
-Mas, ao longo do desenvolvimento, ficou claro que havia algo errado
-no ponto de partida do nosso raciocínio.
-</p>
-
-<p>
-Estávamos olhando o ser humano por dentro
-antes de olhar o ser humano como ele é.
-</p>
-
-<p>
-Antes de ser o paciente do SUS,
-antes de ser um exame,
-antes de ser uma imagem,
-existe a pessoa comum.
-</p>
-
-<p>
-E foi aí que percebemos o gargalo maior.
-</p>
-
-<p>
-O maior gargalo do SUS não está nos exames sofisticados.
-Ele está nos processos elementares.
-</p>
-
-<p>
-Está no encontro entre médico e paciente.
-Na anamnese.
-Na coleta repetitiva de informações básicas.
-Na descrição verbal de sintomas
-que poderiam ser estruturados de forma muito mais eficiente.
-</p>
-
-<p>
-Hoje, uma quantidade enorme do tempo médico
-é consumida preenchendo informações
-que já poderiam estar organizadas antes da consulta.
-</p>
-
-<p>
-Coisas simples.
-Desde uma coceira persistente
-até um desconforto recorrente,
-passam pelo mesmo funil ineficiente:
-agenda,
-consulta,
-perguntas repetidas,
-digitação,
-registro manual.
-</p>
-
-<p>
-Grande parte disso poderia ser resolvida
-antes mesmo do encontro médico.
-</p>
-
-<p>
-Formulários estruturados.
-Perguntas objetivas.
-Fluxos de “sim” e “não”.
-Descrição guiada de sintomas.
-Envio de fotos.
-Uso do celular.
-Uso de dados que o próprio sistema público já possui.
-</p>
-
-<p>
-Tudo isso permitiria que o médico
-recebesse o paciente já com um quadro organizado,
-reduzindo drasticamente o tempo gasto com tarefas operacionais.
-</p>
-
-<p>
-O MID-SUS nasce exatamente dessa virada de raciocínio.
-</p>
-
-<p>
-Não começamos mais pelo exame sofisticado.
-Começamos pela pessoa.
-</p>
-
-<p>
-Pelo humano exterior,
-antes da doença,
-antes do laudo,
-antes do sistema.
-</p>
-
-<p>
-A leitura do interior do corpo continua existindo,
-mas ela passa a ocupar o lugar correto:
-como ferramenta de apoio,
-não como ponto de partida.
-</p>
-
-<p>
-O projeto passa a atuar onde o gargalo é maior,
-onde o desperdício de tempo é cotidiano
-e onde pequenas reorganizações geram impactos enormes.
-</p>
-
-<p>
-Este site não é uma apresentação.
-Não é um produto.
-Não é uma promessa.
-</p>
-
-<p>
-Ele é um espaço de trabalho
-para organizar esse raciocínio,
-explicitar decisões
-e estruturar um projeto que nasce da observação direta
-dos problemas reais do sistema.
-</p>
-
-<p>
-<a href="index.html">Voltar</a>
-</p>
+<p><a href="index.html">Voltar</a></p>
 
 </body>
 </html>
